@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust туры</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/logo/favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <div class="header container">
+            <nav>
+                <a href="#">Туры</a>
+                <a href="aboutCompany.html">О компании</a>
+            </nav>
+            <div class="logo">
+                <a href="index.html"><img src="assets/logo/logo.svg" alt=""></a>
+            </div>
+            <div class="btn-icons">
+                <a href="#"><img src="assets/image/icons/favourites.svg" alt=""></a>
+                <a href="#"><img src="assets/image/icons/basket.svg" alt=""></a>
+                <a href="authorization.html"><img src="assets/image/icons/profile.svg" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- search form start -->
+    <div class="catalog-form container">
+        <form>
+            <input type="text" name="" id="" placeholder="Откуда">
+            <input type="text" name="" id="" placeholder="Куда">
+            <input type="date" name="" id="" placeholder="Дата вылета">
+            <select aria-placeholder="Ночей">
+                <option value="">Ночей</option>
+                <option value="">до 5</option>
+                <option value="">5-7</option>
+                <option value="">от 7</option>
+            </select>
+            <select aria-placeholder="Туристы">
+                <option value="">Туристы</option>
+                <option value="">1 взрослый</option>
+                <option value="">2 взрослых</option>
+                <option value="">1 взрослый с ребенком</option>
+                <option value="">2 взрослых с ребенком</option>
+            </select>
+            <input type="submit" value="Найти">
+        </form>
+    </div>
+    <!-- search form end -->
+
+    <!-- catalog start -->
+    <div class="catalog container">
+        <div class="catalog-sorti">
+            <select name="" id="">
+                <option value="">Сортировать по</option>
+                <option value="">По цене</option>
+                <option value="">По популярности</option>
+                <option value="">По рейтингу</option>
+            </select>
+        </div>
+        <div class="catalog-cards-and-filter">
+            <div class="catalog-filter">
+                <div class="catalog-filter-title">
+                    <p>Фильтры</p>
+                    <button>Сбросить</button>
+                </div>
+                <div class="filter-item">
+                    <h3>Город</h3>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>Сицилия</p>
+                    </div>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>Венето</p>
+                    </div>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>Ломбардия</p>
+                    </div>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>Тоскана</p>
+                    </div>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>Кампания</p>
+                    </div>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>Лацио</p>
+                    </div>
+                </div>
+                <div class="filter-item">
+                    <h3>Цена</h3>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>до 100 000₽</p>
+                    </div>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>150 000 - 200 000₽</p>
+                    </div>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>200 000 - 250 000₽</p>
+                    </div>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>от 250 000₽</p>
+                    </div>
+                </div>
+                <div class="filter-item">
+                    <h3>Категория отеля</h3>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>5 <img src="assets/image/icons/Star-dark.svg" alt=""></p>
+                    </div>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>4 <img src="assets/image/icons/Star-dark.svg" alt=""></p>
+                    </div>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>3 <img src="assets/image/icons/Star-dark.svg" alt=""></p>
+                    </div>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>2 <img src="assets/image/icons/Star-dark.svg" alt=""></p>
+                    </div>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>1 <img src="assets/image/icons/Star-dark.svg" alt=""></p>
+                    </div>
+                    <div class="checkbox-filter">
+                        <input type="checkbox" name="" id="">
+                        <p>Без звёзд</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="catalog-cards">
+                <div class="tour-card">
+                    <div class="img-tour">
+                        <img src="assets/image/tours/t1.png" alt="">
+                        <div class="favourite-tour-icons">
+                            <img src="assets/image/icons/favourite-total-white.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="tour-info">
+                        <div class="tour-name">
+                            <h3>The H'All Tailor Suite Roma</h3>
+                            <div class="reiting">
+                                <h3>5<img src="assets/image/icons/Star-dark.svg" alt=""></h3>
+                            </div>
+                        </div>
+                        <div class="tour-location">
+                            <img src="assets/image/icons/location.svg" alt="">
+                            <p>Италия, Лацио</p>
+                        </div>
+                        <div class="tour-text">
+                            <p>Вариант в районе Фламинио, Рим. Народная площадь и Вилла Боргезе находятся в 15 минутах
+                                ходьбы. Отель класса люкс — вариант с прекрасным расположением.</p>
+                        </div>
+                    </div>
+                    <div class="tour-price-and-btn">
+                        <p>Цена за 5 ночей от</p>
+                        <h3>189 500₽</h3>
+                        <div class="btn">
+                            <a href="tourPage.html">Выбрать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <div class="img-tour">
+                        <img src="assets/image/tours/t2.webp" alt="">
+                        <div class="favourite-tour-icons">
+                            <img src="assets/image/icons/favourite-total-white.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="tour-info">
+                        <div class="tour-name">
+                            <h3>LHP Napoli Palace & spa</h3>
+                            <div class="reiting">
+                                <h3>5<img src="assets/image/icons/Star-dark.svg" alt=""></h3>
+                            </div>
+                        </div>
+                        <div class="tour-location">
+                            <img src="assets/image/icons/location.svg" alt="">
+                            <p>Италия, Кампания</p>
+                        </div>
+                        <div class="tour-text">
+                            <p>Находится в центре города Неаполь. Стадион «Диего Армандо Марадона» и Via Caracciolo e
+                                Lungomare di Napoli расположены в 5 минутах езды на автомобиле. Отель класса люкс —
+                                вариант с прекрасным расположением.</p>
+                        </div>
+                    </div>
+                    <div class="tour-price-and-btn">
+                        <p>Цена за 5 ночей от</p>
+                        <h3>286 800₽</h3>
+                        <div class="btn">
+                            <a href="#">Выбрать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <div class="img-tour">
+                        <img src="assets/image/tours/t3.webp" alt="">
+                        <div class="favourite-tour-icons">
+                            <img src="assets/image/icons/favourite-total-white.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="tour-info">
+                        <div class="tour-name">
+                            <h3>Bis Hotel Varese</h3>
+                            <div class="reiting">
+                                <h3>4<img src="assets/image/icons/Star-dark.svg" alt=""></h3>
+                            </div>
+                        </div>
+                        <div class="tour-location">
+                            <img src="assets/image/icons/location.svg" alt="">
+                            <p>Италия, Ломбардия</p>
+                        </div>
+                        <div class="tour-text">
+                            <p>Находится в городе Варесе, в пригороде. Castiglione Olona и Lake Varese bicycle trail
+                                располагаются всего в 5 минутах езды на автомобиле. Отель для семейного отдыха — вариант
+                                с прекрасным расположением.</p>
+                        </div>
+                    </div>
+                    <div class="tour-price-and-btn">
+                        <p>Цена за 5 ночей от</p>
+                        <h3>184 500₽</h3>
+                        <div class="btn">
+                            <a href="#">Выбрать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <div class="img-tour">
+                        <img src="assets/image/tours/t4.webp" alt="">
+                        <div class="favourite-tour-icons">
+                            <img src="assets/image/icons/favourite-total-white.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="tour-info">
+                        <div class="tour-name">
+                            <h3>Villa Rosa Hotel</h3>
+                            <div class="reiting">
+                                <h3>4<img src="assets/image/icons/Star-dark.svg" alt=""></h3>
+                            </div>
+                        </div>
+                        <div class="tour-location">
+                            <img src="assets/image/icons/location.svg" alt="">
+                            <p>Италия, Ломбардия</p>
+                        </div>
+                        <div class="tour-text">
+                            <p>Находится в самом сердце города Дезенцано-дель-Гарда. Рядом с ним находится Desenzanino
+                                Beach, а в 8 минутах ходьбы — Римская вилла Дезенцано-дель-Гарды. Отель с пляжем —
+                                вариант с прекрасным расположением.</p>
+                        </div>
+                    </div>
+                    <div class="tour-price-and-btn">
+                        <p>Цена за 5 ночей от</p>
+                        <h3>215 600₽</h3>
+                        <div class="btn">
+                            <a href="#">Выбрать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <div class="img-tour">
+                        <img src="assets/image/tours/t5.webp" alt="">
+                        <div class="favourite-tour-icons">
+                            <img src="assets/image/icons/favourite-total-white.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="tour-info">
+                        <div class="tour-name">
+                            <h3>Hotel Europaa</h3>
+                            <div class="reiting">
+                                <h3>3<img src="assets/image/icons/Star-dark.svg" alt=""></h3>
+                            </div>
+                        </div>
+                        <div class="tour-location">
+                            <img src="assets/image/icons/location.svg" alt="">
+                            <p>Италия, Ломбардия</p>
+                        </div>
+                        <div class="tour-text">
+                            <p>Находится в самом сердце города Варесе. Рядом с ним находится Корсо Маттеотти, а в 4
+                                минутах ходьбы — Двор Бролетто. Отель — вариант с прекрасным расположением.</p>
+                        </div>
+                    </div>
+                    <div class="tour-price-and-btn">
+                        <p>Цена за 5 ночей от</p>
+                        <h3>191 300₽</h3>
+                        <div class="btn">
+                            <a href="#">Выбрать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <div class="img-tour">
+                        <img src="assets/image/tours/t6.webp" alt="">
+                        <div class="favourite-tour-icons">
+                            <img src="assets/image/icons/favourite-total-white.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="tour-info">
+                        <div class="tour-name">
+                            <h3>Roma Luxus Hotel</h3>
+                            <div class="reiting">
+                                <h3>5<img src="assets/image/icons/Star-dark.svg" alt=""></h3>
+                            </div>
+                        </div>
+                        <div class="tour-location">
+                            <img src="assets/image/icons/location.svg" alt="">
+                            <p>Италия, Лацио</p>
+                        </div>
+                        <div class="tour-text">
+                            <p>Расположен в центре города Рим. Рядом с ним находится Виа-Национале, а в 5 минутах ходьбы
+                                — Римский форум. Отель класса люкс — вариант с прекрасным расположением.</p>
+                        </div>
+                    </div>
+                    <div class="tour-price-and-btn">
+                        <p>Цена за 5 ночей от</p>
+                        <h3>347 300₽</h3>
+                        <div class="btn">
+                            <a href="#">Выбрать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <div class="img-tour">
+                        <img src="assets/image/tours/t7.webp" alt="">
+                        <div class="favourite-tour-icons">
+                            <img src="assets/image/icons/favourite-total-white.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="tour-info">
+                        <div class="tour-name">
+                            <h3>Hotel La Torretta</h3>
+                            <div class="reiting">
+                                <h3>3<img src="assets/image/icons/Star-dark.svg" alt=""></h3>
+                            </div>
+                        </div>
+                        <div class="tour-location">
+                            <img src="assets/image/icons/location.svg" alt="">
+                            <p>Италия, Ломбардия</p>
+                        </div>
+                        <div class="tour-text">
+                            <p>Находится в городе Боллате, рядом с аэропортом. Выставочный центр Fiera Milano и Fiera
+                                Milano City расположены в 15 минутах езды на автомобиле. Отель — вариант с прекрасным
+                                расположением.</p>
+                        </div>
+                    </div>
+                    <div class="tour-price-and-btn">
+                        <p>Цена за 5 ночей от</p>
+                        <h3>187 000₽</h3>
+                        <div class="btn">
+                            <a href="#">Выбрать</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour-card">
+                    <div class="img-tour">
+                        <img src="assets/image/tours/t8.webp" alt="">
+                        <div class="favourite-tour-icons">
+                            <img src="assets/image/icons/favourite-total-white.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="tour-info">
+                        <div class="tour-name">
+                            <h3>Hotel Capolago
+                            </h3>
+                            <div class="reiting">
+                                <h3>4<img src="assets/image/icons/Star-dark.svg" alt=""></h3>
+                            </div>
+                        </div>
+                        <div class="tour-location">
+                            <img src="assets/image/icons/location.svg" alt="">
+                            <p>Италия, Ломбардия</p>
+                        </div>
+                        <div class="tour-text">
+                            <p>Hасположен в парке провинции. Озеро Варезе находится в 1 минутах езды на автомобиле, а
+                                Вилла Милиус — в 8 минутах езды. Отель — вариант с прекрасным расположением.</p>
+                        </div>
+                    </div>
+                    <div class="tour-price-and-btn">
+                        <p>Цена за 5 ночей от</p>
+                        <h3>198 500₽</h3>
+                        <div class="btn">
+                            <a href="#">Выбрать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- catalog end -->
+
+    <!-- footer start -->
+    <footer class="container">
+        <div class="logo">
+            <a href="index.html"><img src="assets/logo/logo-dark.svg" alt=""></a>
+        </div>
+        <nav>
+            <a href="#">Туры</a>
+            <a href="aboutCompany.html">О компании</a>
+        </nav>
+        <div class="contacts">
+            <div class="social-icons">
+                <a href="#">
+                    <img src="assets/image/icons/whatsapp.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="assets/image/icons/telegram.svg" alt="">
+                </a>
+            </div>
+            <a href="tel:+7 (960) 333-33-33">+7 (960) 333-33-33</a>
+            <a href="mailto:wanderlust@mail.ru">wanderlust@mail.ru</a>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- btn-up start -->
+    <div class="btn-up">
+        <a href="#"><img src="assets/image/icons/arrow.svg" alt=""></a>
+    </div>
+    <!-- btn-up end -->
+</body>
+
+</html>
